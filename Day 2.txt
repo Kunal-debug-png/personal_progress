@@ -1,0 +1,28 @@
+Date : 12/12/2023
+
+Highlights:
+Journey through Data Structures and Algorithms (DSA):
+Problem-Solving Triumphs:
+In the realm of Data Structures and Algorithms, I triumphed over two intriguing problems:
+
+1. Sorting Arrays of 0s, 1s, and 2s:
+Delving into array manipulation, I successfully sorted an array with elements comprising 0s, 1s, and 2s. The process of arranging these elements posed a stimulating challenge that I tackled with efficient problem-solving techniques.
+
+2. Crafting Stock Trading Strategies:
+Another problem that captivated my attention was devising optimal strategies for buying and selling stocks. Exploring the intricacies of the stock market and honing strategies to maximize profits was both challenging and rewarding.
+
+Advancements in Web Development:
+Portfolio Website Enhancement:
+Dedicating substantial effort to my portfolio website, I carved out an engaging introduction page. This enhancement contributes to the ongoing evolution of my digital portfolio, residing within my repository. This page aims to captivate visitors with a welcoming introduction to my work and skills.
+
+Immersion into Flutter's Button World:
+Exploring Button Types in Flutter:
+Delving into Flutter, I dived deep into understanding various button types available in this versatile framework:
+
+ElevatedButton: Experimented with this button type, which embodies material design and is often utilized for primary actions within apps.
+TextButton: Explored text-based buttons, ideal for actions that demand subtlety and simplicity in design.
+OutlinedButton: Delved into buttons with outlined appearances, suitable for secondary actions and a more subdued visual impact.
+IconButton: Experimented with buttons integrated with icons, allowing for visually enriched interactions.
+FloatingActionButton: Explored circular-shaped, prominent buttons that often serve as primary action triggers, placed strategically for user convenience.
+DropdownButton & PopupMenuButton: Discovered the functionality of dropdown menus and contextual options, offering users diverse choices within the app interface.
+CupertinoButton: Explored the iOS-style button design, providing a unique aesthetic appeal aligned with iOS interfaces.
