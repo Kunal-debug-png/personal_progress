@@ -1,0 +1,41 @@
+Day 1: 11/12/2023
+Algorithm Mastery with Kadane's Algorithm
+Learned about Kadane's algorithm, a dynamic programming technique used to efficiently solve the maximum subarray problem. The problem involves finding the contiguous subarray within an array of integers that has the largest sum.
+
+java
+Copy code
+class Solution {
+    public int maxSubArray(int[] nums) {
+         int max=Integer.MIN_VALUE,sum=0;
+        for(int i=0;i<nums.length;i++)
+        {
+            sum=sum+nums[i];
+            if(sum>max){
+                max=sum;
+            }
+            if(sum<0)
+            {
+                sum=0;
+            }
+            
+        }
+        return max;
+    }
+}
+Implemented Kadane's algorithm in Java to effectively iterate through the given integer array (nums) and find the subarray with the maximum sum. The logic involves maintaining a running sum (sum) and updating the max variable whenever a new maximum sum is encountered. Additionally, if the running sum becomes negative, it resets to 0, as the negative sum won't contribute to the maximum subarray.
+
+Web Development Progress
+Dedicated time to improve the personal portfolio website by creating a homepage layout that introduces visitors to my work through an introduction, blog section, and clear contact information.
+
+Flutter Exploration for Mobile App Development
+Commenced learning Flutter, focusing on foundational elements such as widgets and text styling:
+
+Widgets Overview:
+StatelessWidget: Understood its immutability during its lifecycle, demonstrated by examples like Container, Text, and Icon.
+StatefulWidget: Grasped its capacity to change state, exemplified by widgets like TextField, ListView, and AnimatedContainer. Recognized the role of setState() in triggering rebuilds upon state changes.
+Layout Widgets: Explored widgets for arranging and composing UI components such as Row, Column, Stack, Flex, Expanded, and Padding.
+Material Design Widgets: Recognized widgets adhering to Material Design guidelines, including AppBar, SnackBar, FloatingActionButton, and BottomNavigationBar.
+Cupertino Widgets: Discovered widgets aligning with iOS design principles like CupertinoNavigationBar, CupertinoButton, and CupertinoPicker.
+Custom Widgets: Understood the creation of reusable and custom components tailored to specific application requirements.
+Text Styling in Flutter:
+Delved into modifying text appearance using TextStyle in Flutter, altering properties like font size, weight, style, color, decoration, spacing, and font family. Presented an example demonstrating text styling within a Text widget in Dart.
