@@ -1,0 +1,117 @@
+Date: 14/12/23
+Today's coding session was incredibly productive as I delved into Data Structures and Algorithms (DSA) challenges. My progress graph on Coding Ninjas reflects a significant leap, showcasing the successful resolution of three diverse problems:
+
+Sorting an Array of 0s, 1s, and 2s: The challenge involved organizing an array solely comprising 0s, 1s, and 2s without utilizing any conventional sorting algorithms. Implementing the Dutch National Flag algorithm, I efficiently sorted the array in a single pass, optimizing its arrangement.
+
+Repositioning Negative Elements: Another intriguing task was rearranging an array by consolidating all negative elements on one side. Employing a two-pointer approach, I swiftly segregated the negative values, reordering the array systematically.
+
+Union and Intersection of Sorted Arrays: This challenge focused on finding the union and intersection of two sorted arrays. By employing a two-pointer method and meticulously comparing elements, I successfully determined both the union (unique elements from both arrays) and the intersection (common elements between arrays).
+
+Web Development Milestone:
+In the realm of web development, I achieved a significant milestone: the creation of a personalized blog page. This platform will serve as my creative canvas, housing an assortment of articles on diverse subjects including technology, artificial intelligence (AI), data science, data engineering, data analysis, and trading.
+
+Key Aspects of the Blog Page:
+
+Diverse Topics: The blog covers a wide spectrum of subjects, catering to enthusiasts, learners, and professionals interested in tech, AI, data science, data engineering, data analysis, and trading.
+
+User-Friendly Interface: Designed a sleek and intuitive user interface for seamless navigation. Users can effortlessly explore articles based on their preferences or interests.
+
+Engaging Content: Crafted engaging and informative content, employing a blend of real-world examples, tutorials, case studies, and personal experiences to resonate with the audience.
+
+Multimedia Integration: Integrated multimedia elements like images, infographics, and videos to complement and enhance the blog content, ensuring a dynamic and visually appealing experience.
+
+Interactive Features: Incorporated interactive features such as comment sections, social media sharing buttons, and forums to foster community engagement, discussions, and knowledge sharing.
+
+SEO Optimization: Strategically optimized the blog for search engines, leveraging relevant keywords, meta descriptions, and ensuring optimal loading times for enhanced visibility and reach.
+
+Consistency in Publishing: Committed to maintaining a consistent posting schedule to keep the audience engaged, informed, and eager for fresh content.
+ 
+flutter dev :
+
+In Flutter, rows and columns are layout widgets that help arrange other widgets horizontally (for rows) or vertically (for columns) within a parent widget.
+
+Rows:
+Widget: Row
+Purpose: Arrange widgets horizontally from left to right.
+How to Use:
+dart
+Copy code
+Row(
+  children: [
+    Widget1(),
+    Widget2(),
+    Widget3(),
+  ],
+)
+Columns:
+Widget: Column
+Purpose: Arrange widgets vertically from top to bottom.
+How to Use:
+dart
+Copy code
+Column(
+  children: [
+    Widget1(),
+    Widget2(),
+    Widget3(),
+  ],
+)
+Both Row and Column widgets take in a list of children widgets inside their children property. These children can be any Flutter widgets like text, buttons, images, or even other layout widgets.
+
+Example:
+
+dart
+Copy code
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('Row and Column Example'),
+        ),
+        body: Center(
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: [
+              Container(
+                width: 50,
+                height: 50,
+                color: Colors.red,
+              ),
+              Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Container(
+                    width: 50,
+                    height: 50,
+                    color: Colors.green,
+                  ),
+                  Container(
+                    width: 50,
+                    height: 50,
+                    color: Colors.blue,
+                  ),
+                ],
+              ),
+              Container(
+                width: 50,
+                height: 50,
+                color: Colors.yellow,
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+In this example, a Row is used to arrange three colored containers horizontally, and the middle container is a Column containing two colored containers stacked vertically.
+
+Remember, you can adjust various properties within rows and columns to control spacing, alignment, and more using properties like mainAxisAlignment, crossAxisAlignment, mainAxisSize, etc.
